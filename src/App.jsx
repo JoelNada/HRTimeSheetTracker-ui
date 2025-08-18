@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import Routes from './routes/routes';
 
 function App() {
   return (
     <>
-      <h1>Hello, world</h1>
+      <Routes/>
     </>
   );
 }
